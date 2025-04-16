@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const genAI = new GoogleGenerativeAI("AIzaSyD8DU61IZZAqAMAam028Cljnh7Duz-sX8s");
+const genAI = new GoogleGenerativeAI("");
 
 function App() {
   const [inputText, setInputText] = useState("");
